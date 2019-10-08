@@ -69,7 +69,7 @@ export const faq = { // faq section
     // max loan amounts by program for faq1
     loanRange: [
         {
-            programName: "Open Cloud Academy's Cyber Security program",
+            programName: "Open Cloud Academy's Cybersecurity program",
             maxAmount: "$16,000",
             col: false,
             colAmount: "$6,000"
@@ -95,18 +95,18 @@ export const schoolURL = 'https://opencloudacademy.rackspace.com/' // update wit
 
 export const skfURL = 'https://opencloudacademy.skills.fund/' // update with Skills Fund url
 
-export const headline = "Learn to Code at Open Cloud Academy" // update headline as appropriate
+export const headline = "Learn Information Technology at Open Cloud Academy" // update headline as appropriate
 
 export const leadContent = {
     header: "Your last step on the path toward changing your career",
-    paragraph: `${schoolName} designs its programs to prepare students with a foundation for a career in software development. ${schoolName} partners with Skills Fund to offer tuition${faq.costOfLiving ? ' and cost of living' : ''} financing so more students like you can access their program.`
+    paragraph: `${schoolName} designs its programs to prepare students with a foundation for a career in Information Technology. ${schoolName} partners with Skills Fund to offer tuition${faq.costOfLiving ? ' and cost of living' : ''} financing so more students like you can access their program.`
 }
 
 export const threeStepCardText = {
     step1: "",
     step2: {
         header: "select your program",
-        text: "Choose between the Cyber Security and System Adminstration programs."
+        text: "Choose between the Cybersecurity and System Adminstration programs."
     },
     step3: `You'll be on your way to an exciting career in tech as part of ${schoolName}'s powerful network.`
 }
@@ -134,7 +134,7 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 
 export const programLoanInfo = [ // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
     {
-        name: "Cyber Security",
+        name: "Cybersecurity",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SAOCCS19",
         loanInfo: { // match loanInfo in first metro below
             maxLoanAmt: 16000,
@@ -215,7 +215,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $16,000 for Open Cloud Academy's Cyber Security tuition, or up to $8,000 for System Administration tuition."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $16,000 for Open Cloud Academy's Cybersecurity tuition, or up to $8,000 for System Administration tuition."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
