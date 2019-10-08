@@ -247,7 +247,7 @@ const LoanApp = React.forwardRef((props, ref) => {
                 }
             <div className="px-8 text-sm">
                 <p className="text-center pt-8 text-white">If you are a cosigner, begin the addendum now by clicking <a className="underline" href="https://sf.privateloan.studentloan.org/Cosigner.do?execution=e1s1" rel="noreferrer noopener" target="_blank">here</a>.</p>
-                <p className="text-center text-primary cursor-pointer font-bold" onClick={() => toggleDisclaimers(!disclaimers)}>Disclaimers</p>
+                <p className="text-center text-white underline cursor-pointer font-bold" onClick={() => toggleDisclaimers(!disclaimers)}>Disclaimers</p>
             <Collapse isOpened={disclaimers} springConfig={{stiffness: 150, damping: 40}}>
                 <div>
                     <p><strong>Before you begin, please read these important notes:</strong></p>
