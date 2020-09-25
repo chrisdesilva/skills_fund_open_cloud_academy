@@ -133,14 +133,14 @@ export const faq = {
   // max loan amounts by program for faq1
   loanRange: [
     {
-      programName: "Open Cloud Academy's Cybersecurity program",
-      maxAmount: "$16,000",
+      programName: "Rackspace Cloud Academy's Cybersecurity program",
+      maxAmount: "$17,000",
       col: false,
       colAmount: "$6,000",
     },
     {
-      programName: "Open Cloud Academy's System Administration program",
-      maxAmount: "$8,000",
+      programName: "Rackspace Cloud Academy's System Administration program",
+      maxAmount: "$13,500",
       col: false,
       colAmount: "$6,000",
     },
@@ -153,13 +153,14 @@ export const faq = {
 
 export const schoolLogo = logo // go to header.js if height needs adjustment
 
-export const schoolName = "Open Cloud Academy"
+export const schoolName = "Rackspace Cloud Academy"
 
 export const schoolURL = "https://opencloudacademy.rackspace.com/" // update with url of school's website
 
 export const skfURL = "https://opencloudacademy.skills.fund/" // update with Skills Fund url
 
-export const headline = "Learn Information Technology at Open Cloud Academy" // update headline as appropriate
+export const headline =
+  "Learn Information Technology at Rackspace Cloud Academy" // update headline as appropriate
 
 export const leadContent = {
   header: "Your last step on the path toward changing your career",
@@ -289,7 +290,7 @@ export const programLoanInfo = [
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
 export const programMaxText =
-  "Choose the loan amount that works best for you. Borrow up to $16,000 for Open Cloud Academy's Cybersecurity tuition, or up to $8,000 for System Administration tuition."
+  "Choose the loan amount that works best for you. Borrow up to $16,000 for Rackspace Cloud Academy's Cybersecurity tuition, or up to $8,000 for System Administration tuition."
 
 export const paymentTable = {
   headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
