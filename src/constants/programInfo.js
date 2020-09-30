@@ -157,7 +157,7 @@ export const schoolName = "Rackspace Cloud Academy"
 
 export const schoolURL = "https://opencloudacademy.rackspace.com/" // update with url of school's website
 
-export const skfURL = "https://opencloudacademy.skills.fund/" // update with Skills Fund url
+export const skfURL = "https://rca.skills.fund/" // update with Skills Fund url
 
 export const headline =
   "Learn Information Technology at Rackspace Cloud Academy" // update headline as appropriate
