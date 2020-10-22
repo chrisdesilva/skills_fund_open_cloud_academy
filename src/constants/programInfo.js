@@ -144,6 +144,12 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
+    {
+      programName: "Rackspace Cloud Academy's Cyber Cloud program",
+      maxAmount: "$17,000",
+      col: false,
+      colAmount: "$6,000",
+    },
   ],
 }
 
@@ -247,6 +253,48 @@ export const programLoanInfo = [
   {
     name: "System Administration",
     url: "https://my.skills.fund/application?lenderCode=SAOCSA19",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 8000,
+      loanTerm36: true,
+      loanTerm60: false,
+      "Interest Only": {
+        k: 5,
+        apr36: 12.11,
+        apr60: 12.51,
+      },
+      "Immediate Repayment": {
+        apr36: 12.87,
+      },
+    },
+    defaultLoanType: "Interest Only", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: true,
+    loanTypes: ["Interest Only", "Immediate Repayment"],
+    locations: ["Metro 1", "Metro 2"],
+    metros: [
+      {
+        location: "Metro 1",
+        loanInfo: {
+          // match loanInfo to Program 2 loanInfo above
+          maxLoanAmt: 8000,
+          loanTerm36: true,
+          loanTerm60: false,
+          "Interest Only": {
+            k: 5,
+            apr36: 12.11,
+            apr60: 12.51,
+          },
+          "Immediate Repayment": {
+            apr36: 12.87,
+          },
+        },
+      },
+    ],
+  },
+  {
+    name: "Cyber Cloud",
+    url: "https://my.skills.fund/application?lenderCode=RSCACC20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 8000,
