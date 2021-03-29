@@ -1,18 +1,16 @@
 exports.createPages = ({ graphql, actions }) => {
-  const { createPage, createRedirect } = actions
-  createRedirect({
-    fromPath: "https://opencloudacademy.skills.fund/*",
-    toPath: "https://rca.skills.fund/:splat",
-    isPermanent: true,
-    force: true,
-  })
-  createRedirect({
-    fromPath: "/go",
-    toPath: "/",
-  })
-  createRedirect({
-    fromPath: "/go",
-    toPath: "/",
-  })
-  createRedirect({ fromPath: "/accepted", toPath: "/" })
+    const { createPage, createRedirect } = actions
+
+    createRedirect({
+        fromPath: "/go",
+        toPath:
+          "/?utm_source=school&utm_medium=printedskfbrochure&utm_campaign=studentbrochure",
+      })
+    createRedirect({
+        fromPath: "/*",
+        toPath: "https://partner.ascentfunding.com/rca/",
+        isPermanent: true,
+        force: true,
+    })
 }
+
